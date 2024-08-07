@@ -1,10 +1,16 @@
 <script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 </script>
 
 <template>
-  <div>
+
+
+
+  <div class="wrapper">
     <HelloWorld />
   </div>
+
+
+
 </template>
