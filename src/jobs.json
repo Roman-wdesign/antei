@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Developer",
+        "description": "Develop and maintain web applications.",
+        "salary": 5000,
+        "currency": "USD",
+        "hidden": false
+    },
+    {
+        "id": 2,
+        "title": "Backend Developer",
+        "description": "Build and optimize server-side logic.",
+        "salary": 6000,
+        "currency": "USD",
+        "hidden": false
+    },
+    {
+        "id": 3,
+        "title": "Fullstack Developer",
+        "description": "Work on both frontend and backend.",
+        "salary": 7000,
+        "currency": "EUR",
+        "hidden": false
+    },
+    {
+        "id": 4,
+        "title": "Project Manager",
+        "description": "Manage project timelines and deliverables.",
+        "salary": 8000,
+        "currency": "GBP",
+        "hidden": false
+    },
+    {
+        "id": 5,
+        "title": "UX/UI Designer",
+        "description": "Design user interfaces and experiences.",
+        "salary": 4500,
+        "currency": "USD",
+        "hidden": false
+    },
+    {
+        "id": 6,
+        "title": "Data Scientist",
+        "description": "Analyze data and build predictive models.",
+        "salary": 9000,
+        "currency": "EUR",
+        "hidden": false
+    },
+    {
+        "id": 7,
+        "title": "DevOps Engineer",
+        "description": "Manage and automate deployment pipelines.",
+        "salary": 6500,
+        "currency": "USD",
+        "hidden": false
+    },
+    {
+        "id": 8,
+        "title": "QA Engineer",
+        "description": "Ensure software quality through testing.",
+        "salary": 4000,
+        "currency": "GBP",
+        "hidden": false
+    },
+    {
+        "id": 9,
+        "title": "System Administrator",
+        "description": "Maintain IT infrastructure and security.",
+        "salary": 5500,
+        "currency": "USD",
+        "hidden": false
+    },
+    {
+        "id": 10,
+        "title": "Product Manager",
+        "description": "Define product vision and strategy.",
+        "salary": 8500,
+        "currency": "EUR",
+        "hidden": false
+    }
+]
