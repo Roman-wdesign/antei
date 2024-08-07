@@ -32,8 +32,9 @@ const convertSalary = (salary, currency) => {
 const filteredJobs = computed(() => {
   return jobs.value.filter((job) => {
     const matchesTitle = job.title.toLowerCase().includes(searchTitle.value.toLowerCase());
-    const matchesSalary = job.salary >= minSalary.value && job.salary <= maxSalary.value;
-    return matchesTitle && matchesSalary;
+    const matchesMinsalary = job.salary >= minSalary.value;
+    const matchesMaxSalary = job.salary <= (maxSalary.value || Infinity);
+    return matchesTitle && matchesMinsalary && matchesMaxSalary;
   });
 });
 
